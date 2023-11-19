@@ -1,0 +1,296 @@
+:root {
+    --white-color: #fff;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .container {
+        width: 960px;
+    }
+
+    /* navbar */
+    nav ul {
+        display: none;
+    }
+
+    nav .bar {
+        display: inline-block;
+    }
+
+    nav ul:target {
+        display: inline-block;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        background-color: var(--white-color);
+        height: 100vh;
+        padding: 10px;
+    }
+
+    nav ul:target li {
+        padding: 15px 0;
+    }
+
+    /* navbar */
+    /* gallery section */
+    .container .gallery-img {
+        height: 900px;
+    }
+
+    /* gallery section */
+    /* footer */
+    .footer-logo {
+        width: 49%;
+        order: 1;
+    }
+
+    .footer-subscribe {
+        width: 100%;
+        order: 3;
+    }
+
+    .footer-get {
+        width: 49%;
+        order: 2;
+    }
+
+    .footer-subscribe .row-1 input {
+        width: 85%;
+    }
+
+    .footer-subscribe .row-1 button {
+        width: 12%;
+    }
+
+    /* footer */
+}
+
+@media screen and (max-width:991px) and (min-width:768px) {
+    .container {
+        width: 720px;
+    }
+
+    /* navbar */
+    nav ul {
+        display: none;
+    }
+
+    nav .bar {
+        display: inline-block;
+    }
+
+    nav ul:target {
+        display: inline-block;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        background-color: var(--white-color);
+        height: 100vh;
+        padding: 10px;
+    }
+
+    nav ul:target li {
+        padding: 15px 0;
+    }
+
+    /* navbar */
+    /* home section */
+    .home {
+        height: auto;
+    }
+
+    .home .container .content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-content {
+        order: 2;
+        width: 70%;
+    }
+
+    .home-content h2,
+    p {
+        text-align: center;
+    }
+
+    .home-img {
+        order: 1;
+        width: 100%;
+    }
+
+    .home-button {
+        justify-content: center;
+    }
+
+    /* home section */
+    /* chefs section */
+    .chefs .container .content {
+        row-gap: 20px;
+    }
+
+    .chefs .content .card {
+        width: 49%;
+    }
+
+    /* chefs section */
+    /* gallery section */
+    .container .gallery-img {
+        height: 1405px;
+    }
+
+    .container .gallery-img .meals {
+        width: 49%;
+    }
+
+    /* gallery section */
+    /* contact section */
+    .form-row-1 .col {
+        width: 100%;
+    }
+
+    /* contact section */
+    /* footer */
+    .footer-logo {
+        width: 49%;
+        order: 1;
+    }
+
+    .footer-subscribe {
+        width: 100%;
+        order: 3;
+    }
+
+    .footer-get {
+        width: 49%;
+        order: 2;
+    }
+
+    .footer-subscribe .row-1 input {
+        width: 82%;
+    }
+
+    .footer-subscribe .row-1 button {
+        width: 15%;
+    }
+
+    /* footer */
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        width: 540px;
+    }
+
+    /* navbar */
+    nav ul {
+        display: none;
+    }
+
+    nav .bar {
+        display: inline-block;
+    }
+
+    nav ul:target {
+        display: inline-block;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        background-color: var(--white-color);
+        height: 100vh;
+        padding: 10px;
+    }
+
+    nav ul:target li {
+        padding: 15px 0;
+    }
+
+    /* navbar */
+    /* home section */
+    .home {
+        height: auto;
+    }
+
+    .home .container .content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-content {
+        order: 2;
+        width: 70%;
+    }
+
+    .home-content h2,
+    p {
+        text-align: center;
+    }
+
+    .home-img {
+        order: 1;
+        width: 100%;
+    }
+
+    .home-button {
+        justify-content: center;
+    }
+
+    /* home section */
+    /* chefs section */
+    .chefs .container .content {
+        row-gap: 30px;
+    }
+
+    .chefs .content .card {
+        width: 100%;
+    }
+
+    /* chefs section */
+    /* gallery section */
+    .container .gallery-img {
+        height: 100%;
+    }
+
+    .container .gallery-img .meals {
+        width: 100%;
+    }
+
+    /* gallery section */
+    /* contact section */
+    .form-row-1 .col {
+        width: 100%;
+    }
+
+    .contact .details>div{
+        width: 100%;
+    }
+
+    /* contact section */
+    /* footer */
+    .footer-logo {
+        width: 100%;
+    }
+
+    .footer-subscribe {
+        width: 100%;
+    }
+
+    .footer-get {
+        width: 100%;
+    }
+
+    .footer-subscribe .row-1 input {
+        width: 78%;
+    }
+
+    .footer-subscribe .row-1 button {
+        width: 20%;
+    }
+
+    /* footer */
+}
